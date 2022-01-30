@@ -1,0 +1,64 @@
+// colors
+
+// balance
+$bgColorBody:#16151f;
+$colorBody: #fff;
+$colorStatsSub: #B9B7EA;
+
+$statsTitleFsz: 18px;
+$statsTitleSmallFsz: 13px;
+$statsSubtitleFsz: 10px;
+
+// buttons
+$btcLeft: rgba(105, 47, 189);
+$btcTop: rgba(129, 54, 188);
+$btcRight: rgba(175, 124, 169, 0.6);
+$btcBottom: rgba(167, 65, 188, 0.6);
+
+$btcHover: rgba(167, 65, 188, 0.1);
+
+$btnTextFsz: 14px;
+
+
+// card-label
+$labelTextShadow: rgba(0, 0, 0, 0.45);
+$labelBg: linear-gradient(to right top, #de2c18, #e63317, #ef3b15, #f74213, #ff4910);
+$cardLabelFsz: 13px;
+
+// card
+$cardColor: #fff;
+$cardShadowColor: rgba(0, 0, 0, 0.3);
+
+$cardTitleFsz: 30px;
+$cardSubTitleFsz: 14px;
+
+// content
+$conMenuItem: #5C5A7B;
+$conMenuItemBg: #212031;
+$conMenuItemHover: #fff;
+$conMenuItemBdr: linear-gradient(90deg, #F52CBF 0%, #FF7C46 100%);
+
+$conMenuLine: rgba(151, 148, 198, 0.1);
+
+$conMenuItemFsz: 20px;
+$conMenuItemFsz876: 18px;
+$conMenuItemFsz644: 16px;
+$conMenuItemFsz600: 14px;
+$conTitleFsz: 30px;
+
+// nav
+$navItemColor: #fff;
+$navItemHoverColor: #d094f8;
+$navItemHoverBg: rgba(29, 28, 40, 0.5);
+
+$navItemBdrLeft: rgba(255, 255, 255, 0.1);
+$navItemBdrTop: rgba(255, 255, 255, 0.1);
+$navItemBdrBottom: rgba(255, 255, 255, 0.1);
+
+$navItemBdRightHome: rgba(255, 255, 255, 0.1);
+
+$navFsz: 18px;
+$navFsz600: 14px;
+
+// transition duration for all blocks
+$mainDuration: 600ms;

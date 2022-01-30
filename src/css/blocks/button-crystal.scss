@@ -1,0 +1,59 @@
+.button-crystal {
+    display: flex;
+    justify-content: space-between;
+  
+    min-width: 154px;
+  
+    padding: 15px 20px;
+    margin: 25px 0 15px 0;
+  
+    background: linear-gradient(90deg, #242333 0%, #3C3B53 100%);
+  
+    border-radius: 140px;
+  
+    border-left: solid 2px $btcLeft;
+    border-top: solid 2px $btcTop;
+    border-right: solid 2px $btcRight;
+    border-bottom: solid 2px $btcBottom;
+  
+    transition: background $mainDuration;
+  
+    &:hover {
+      background: $btcHover;
+  
+      cursor: pointer;
+    }
+  
+    &__text {
+      font-family: "Roboto-Regular", sans-serif;
+  
+      font-size: $btnTextFsz;
+      line-height: 16px;
+      letter-spacing: 1px;
+    }
+  
+    &__amount {
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: $btnTextFsz;
+      line-height: 16px;
+      letter-spacing: 1px;
+  
+      position: relative;
+  
+      &::before {
+        content: '';
+        display: inline-block;
+  
+        width: 8px;
+        height: 15px;
+  
+        position: absolute;
+        right: 22px;
+        top: -1px;
+  
+        background: url('../img/card/card-crystal-dollar.svg');
+        background-size: contain;
+        background-position: center;
+      }
+    }
+  }

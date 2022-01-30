@@ -1,0 +1,22 @@
+@import './reset';
+@import './fonts';
+@import './vars';
+
+@import './blocks/container';
+@import './blocks/nav';
+@import './blocks/balance';
+@import './blocks/content';
+@import './blocks/card';
+@import './blocks/card-label';
+@import './blocks/button-crystal';
+@import './blocks/button-coin';
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $bgColorBody;
+  color: $colorBody;
+}

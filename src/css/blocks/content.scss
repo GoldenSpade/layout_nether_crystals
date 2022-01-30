@@ -1,0 +1,153 @@
+.content {
+  background: url('../img/content/content-bg.jpg');
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  padding-top: 10px;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1020px) {
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 576px) {
+      justify-content: space-between;
+    }
+  }
+
+  &__menu-item {
+    margin-right: 10px;
+
+    font-family: "LeksaSansPro-Bold", sans-serif;
+    font-size: $conMenuItemFsz;
+    line-height: 25px;
+    color: $conMenuItem;
+
+    background: $conMenuItemBg;
+
+    min-width: 188px;
+    min-height: 54px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: solid 4px transparent;
+    border-radius: 10px 10px 0px 0px;
+
+    padding-top: 4px;
+
+    transition: color $mainDuration, background $mainDuration, border $mainDuration;
+
+    @media (max-width: 1020px) {
+      min-width: max-content;
+      padding: 0 28px;
+    }
+
+    @media (max-width: 876px) {
+      padding: 0 16px;
+      font-size: $conMenuItemFsz876;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0 10px;
+      margin-right: 4px;
+    }
+
+    @media (max-width: 644px) {
+      padding: 0 10px;
+      font-size: $conMenuItemFsz644;
+    }
+
+    @media (max-width: 600px) {
+      font-size: $conMenuItemFsz600;
+      line-height: 14px;
+      text-align: center;
+      word-wrap: break-word;
+
+      width: 100%;
+      min-width: initial;
+
+      padding: 0 5px;
+      margin: 0;
+
+      border-radius: 0;
+    }
+
+    @media (max-width: 408px) {
+      word-break: break-all;
+    }
+
+    &:hover {
+      background: #272737;
+      color: $conMenuItemHover;
+
+      cursor: pointer;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__menu-item--active {
+    color: $conMenuItemHover;
+    background: #272737;
+
+    border-bottom: 4px solid;
+    border-image-source: $conMenuItemBdr;
+    border-image-slice: 1;
+
+    transition: color $mainDuration, background $mainDuration, border $mainDuration;
+
+    cursor: pointer;
+  }
+
+  &__cards {
+    background: #242333;
+    min-height: 500px;
+    padding: 0 24px 20px;
+    margin-bottom: 85px;
+
+    @media (max-width: 1020px) {
+      border-radius: 0 10px 0 0;
+    }
+
+    @media (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 600px) {
+      border-radius: 0;
+    }
+  }
+
+  &__title {
+    font-family: "LeksaSansPro-Bold", sans-serif;
+    font-size: $conTitleFsz;
+    text-align: center;
+
+    padding: 24px 0;
+
+  }
+
+  &__title--line {
+    border-top: 1px solid $conMenuLine;
+
+    margin-top: 30px;
+  }
+
+  &__cards-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 1015px) {
+      justify-content: center;
+    }
+  }
+}
