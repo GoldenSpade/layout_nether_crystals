@@ -1,4 +1,4 @@
-# Landing Page - Nether Crystals #
+# Landing Page. Nether Crystals #
 
 The page is fully responsive for screens with a width of 350px and more.
 
