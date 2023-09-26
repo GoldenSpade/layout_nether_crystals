@@ -1,4 +1,4 @@
-# Landing Page. Nether Crystals #
+# [Landing Page. Nether Crystals](https://goldenspade.github.io/layout_nether_crystals/) #
 
 The page is fully responsive for screens with a width of 350px and more.
 
@@ -26,4 +26,4 @@ For implementation of the project, was used Parcel-Bundler.
 * Parcel-Bundler;
 * Visual Studio Code.
 
-### [DEMO](https://billizane.github.io/layout_nether_crystals/) ###
+### [DEMO](https://goldenspade.github.io/layout_nether_crystals/) ###
