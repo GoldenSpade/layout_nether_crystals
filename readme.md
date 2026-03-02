@@ -1,29 +1,60 @@
-# [Landing Page. Nether Crystals](https://goldenspade.github.io/layout_nether_crystals/) #
+# Nether Crystals — Game Shop UI
 
-The page is fully responsive for screens with a width of 350px and more.
+A responsive game shop interface layout featuring crystal and coin packs. Built as a frontend portfolio project.
 
-The landing page was made according to the BEM methodology. Any blocks can be reused.
+**[→ Live Demo](https://goldenspade.github.io/layout_nether_crystals/)**
 
-Responsive-adaptive layout was created by using "rubber blocks", flexboxes and media queries.
+---
 
-Media-breakpoints: 350px, 576px, 768px, 992px, 1410px and more.
+## Features
 
-All transitions and hover-effects are performed with a 600ms delay.
+- Fully responsive layout, optimised for screens from 350px and up
+- BEM methodology — all blocks are self-contained and reusable
+- Fluid layout using flexbox and media queries
+- Tab navigation with active state managed via JavaScript
+- Hover effects and transitions with a consistent 600ms duration
+- Accessible markup: ARIA roles, `alt` attributes, keyboard navigation support
 
-The SASS preprocessor with SCSS syntax was used.
+## Tech Stack
 
-Fonts are placed in a separate file "_fonts".
+| Tool | Purpose |
+|------|---------|
+| HTML5 | Semantic markup |
+| SCSS (Sass) | Styling with BEM, `@use`/`@forward` module system |
+| JavaScript (ES Modules) | Tab switching, keyboard interaction |
+| Vite | Dev server and bundler |
 
-JavaScript code placed in separate modules.
+## Getting Started
 
-For implementation of the project, was used Parcel-Bundler.
+```bash
+# Install dependencies
+npm install
 
-### Technology stack: ###
+# Start dev server
+npm start
 
-* HTML, CSS;
-* SASS;
-* JavaScript;
-* Parcel-Bundler;
-* Visual Studio Code.
+# Production build
+npm run build
+```
 
-### [DEMO](https://goldenspade.github.io/layout_nether_crystals/) ###
+## Project Structure
+
+```
+src/
+├── css/
+│   ├── blocks/         # BEM block styles
+│   ├── _fonts.scss     # Font-face declarations
+│   ├── _reset.scss     # CSS reset
+│   ├── _vars.scss      # Design tokens (colours, sizes, durations)
+│   └── main.scss       # Entry point — imports all modules
+├── fonts/              # WOFF font files
+├── img/                # Images and icons
+├── js/
+│   ├── content-menu.js # Tab switching logic
+│   └── main.js         # JS entry point
+└── index.html
+```
+
+## Media Breakpoints
+
+`400px` · `541px` · `576px` · `600px` · `644px` · `650px` · `768px` · `778px` · `830px` · `876px` · `1015px` · `1020px`

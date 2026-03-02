@@ -1,15 +1,15 @@
-@import './reset';
-@import './fonts';
-@import './vars';
+@use './reset';
+@use './fonts';
+@use './vars' as *;
 
-@import './blocks/container';
-@import './blocks/nav';
-@import './blocks/balance';
-@import './blocks/content';
-@import './blocks/card';
-@import './blocks/card-label';
-@import './blocks/button-crystal';
-@import './blocks/button-coin';
+@use './blocks/container';
+@use './blocks/nav';
+@use './blocks/balance';
+@use './blocks/content';
+@use './blocks/card';
+@use './blocks/card-label';
+@use './blocks/button-crystal';
+@use './blocks/button-coin';
 
 * {
   box-sizing: border-box;

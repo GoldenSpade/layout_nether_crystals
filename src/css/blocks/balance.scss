@@ -1,3 +1,5 @@
+@use '../vars' as *;
+
 .balance {
   display: flex;
   justify-content: center;
@@ -5,8 +7,6 @@
   min-width: max-content;
 
   &__item {
-    min-width: 162px;
-
     display: flex;
     align-items: center;
     background: #0D0B0F;

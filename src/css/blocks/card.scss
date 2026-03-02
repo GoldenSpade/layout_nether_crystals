@@ -1,3 +1,5 @@
+@use '../vars' as *;
+
 .card {
   color: $cardColor;
 
@@ -55,25 +57,25 @@
     &:nth-child(2n) {
       margin-right: 0;
     }
+  }
 
-    @media (max-width: 541px) {
+  @media (max-width: 541px) {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    &:nth-child(2n) {
       margin-left: 20px;
       margin-right: 20px;
+    }
 
-      &:nth-child(2n) {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+    &:nth-child(3n) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 
-      &:nth-child(3n) {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
-
-      &:nth-child(4n) {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+    &:nth-child(4n) {
+      margin-left: 20px;
+      margin-right: 20px;
     }
   }
 

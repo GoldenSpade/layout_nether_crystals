@@ -1,3 +1,5 @@
+@use '../vars' as *;
+
 .card-label {
   font-family: "Roboto-Regular", sans-serif;
   font-size: $cardLabelFsz;
